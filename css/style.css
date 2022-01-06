@@ -97,6 +97,8 @@ body{
 
 .mission h3, .vission h3, .goals h3{
     margin-bottom: 15px;
+    color: #fff;
+    font-size: 25px;
 }
 
 .mission p, .vission p, .goals p{
