@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;700;900&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +6,6 @@
 }
 
 body{
-    font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-seri;
     color: #1c1c1c;
 }
@@ -36,13 +34,13 @@ body{
 .focus-heading{
     border-left: 5px solid #1d1b41;
     position: relative;
-    height: 98px;
+    height: 110px;
 }
 
 .focus-heading h1{
     position: absolute;
     font-size: 50px;
-    margin-top: -12px;
+    margin-top: -22px;
     padding-left: 5px;
 }
 
@@ -287,10 +285,12 @@ form input:focus, textarea:focus {
 }
 
 .footer-mission{
-    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
 }
 
 .footer-year{
     font-style: italic;
-    color: #ffd105;
+    color: #1c1c1c;
+    font-size: 25px;
 }
