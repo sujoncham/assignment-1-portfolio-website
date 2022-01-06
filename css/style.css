@@ -116,7 +116,6 @@ body{
 
 .goals{
     background: #3c33e6;
-
 }
 
 .my-mission img{
@@ -138,6 +137,16 @@ body{
 
 .develop-img{
     width: 45%;
+    position: relative;
+}
+
+.develop-img .shape-img{
+    position: absolute;
+    left: -77px;
+    width: 160px;
+    top: 120px;
+    z-index: -1;
+
 }
 
 .develop-text{
@@ -174,6 +183,16 @@ body{
 .community-img{
     width: 45%;
     text-align: right;
+    position: relative;
+}
+
+.community-img .shape-img{
+    position: absolute;
+    width: 160px;
+    bottom: -75px;
+    right: -65px;
+    z-index: -1;
+
 }
 
 .community-text{
