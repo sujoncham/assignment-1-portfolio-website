@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Festive&family=Poppins:wght@400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*section 1*/
+.section1{
+    margin-top: 5px;
+}
+
+.focused{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focus-heading{
+    border-left: 5px solid #1d1b41;
+    position: relative;
+    height: 98px;
+}
+
+.focus-heading h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: -12px;
+    padding-left: 5px;
+}
+
+.focused p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.focused-text{
+    width: 50%;
+}
+
+.focused-img {
+    width: 50%;
+    text-align: right;
+}
+
+.focused-img img{
+    width: 70%;
+}
+
+.hiredbutton{
+    padding: 10px 16px;
+    background: #3c33e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.focus-year{
+    color: #72709e;
+}
+
+/*section 2*/
+
+.section2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.my-mission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mission, .vission, .goals{
+    width: 30%;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.mission h3, .vission h3, .goals h3{
+    margin-bottom: 15px;
+}
+
+.mission p, .vission p, .goals p{
+    margin-bottom: 20px;
+}
+
+.mission{
+    background: #72709e;
+}
+
+.vission{
+    background: #3a3680;
+}
+
+.goals{
+    background: #3c33e6;
+
+}
+
+.my-mission img{
+    width: 60%;
+}
+
+/*section 3*/
+
+.section3{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.develop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.develop-img{
+    width: 45%;
+}
+
+.develop-text{
+    width: 55%;
+}
+
+.develop-text h3{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.develop-text p{
+    margin-bottom: 15px;
+}
+
+.develop-img img{
+    width: 90%;
+}
+
+/*section 4*/
+
+.section4{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community-img{
+    width: 45%;
+    text-align: right;
+}
+
+.community-text{
+    width: 55%;
+}
+
+.community-text h3{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.community-text p{
+    margin-bottom: 15px;
+}
+
+.community-img img{
+    width: 90%;
+}
+
+/*section 5*/
+
+.section5{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-text h3{
+    font-size: 35px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form{
+    width: 50%;
+}
+
+.contact-social{
+    width: 50%;
+}
+
+.contact-form form input, textarea{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input:focus, textarea:focus {
+    border: 3px solid #3c33e6;
+  }
+
+.btnButton{
+    padding: 10px 16px;
+    background: #3c33e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.social-link{
+    margin-top: 60px;
+}
+
+.social-link a{
+    background: #3c33e6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-social h4{
+    font-size: 25px;
+}
+
+
+/*footer section*/
+.footer{
+    background: #4f49c2;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-mission{
+    font-style: italic;
+}
+
+.footer-year{
+    font-style: italic;
+    color: #ffd105;
+}
