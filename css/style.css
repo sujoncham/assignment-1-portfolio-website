@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Lobster', cursive;
-    font-family: 'Poppins', sans-seri
+    font-family: 'Poppins', sans-seri;
     color: #1c1c1c;
 }
 
@@ -92,7 +92,7 @@ body{
 
 .mission, .vission, .goals{
     width: 30%;
-    height: 400px;
+    height: 415px;
     padding: 8px;
     border-radius: 10px;
 }
@@ -103,6 +103,7 @@ body{
 
 .mission p, .vission p, .goals p{
     margin-bottom: 20px;
+    font-size: 15px;
 }
 
 .mission{
@@ -118,7 +119,7 @@ body{
 }
 
 .my-mission img{
-    width: 60%;
+    width: 50%;
 }
 
 /*section 3*/
