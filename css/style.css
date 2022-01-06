@@ -93,6 +93,7 @@ body{
 
 .mission, .vission, .goals{
     width: 30%;
+    height: 400px;
     padding: 8px;
     border-radius: 10px;
 }
